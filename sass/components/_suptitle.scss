@@ -1,0 +1,6 @@
+.suptitle{
+    text-align: center;
+    @include font(36px, 700, 1.1);
+    letter-spacing: 0.03em;
+    font-style: normal;
+}

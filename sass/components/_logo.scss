@@ -1,0 +1,17 @@
+.logo{
+    font-family: var(--font-second);
+    @include font(26px, 700, 1.2);
+    text-decoration: none;
+    color: var(--accent-color);
+    letter-spacing: 0.03em;
+    
+    &__span{
+        color: var(--link-color);
+    }
+}
+
+.page-header__logo{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+

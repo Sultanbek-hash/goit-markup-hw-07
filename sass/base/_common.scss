@@ -1,0 +1,21 @@
+body{
+    font-family: var(--font-accent);
+    color: var(--accent-color);
+}
+img{
+    display: block;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,li{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
