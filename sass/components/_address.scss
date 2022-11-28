@@ -1,0 +1,26 @@
+.address__footer{
+    margin-top: 20px;
+}
+.address__list{
+    list-style-type: none;
+}
+.address__item:not(:first-child){
+    margin-top: 9px;
+}
+.address__link{
+    font-style: normal;
+    @include font(400, 14px, 1.7);
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    
+}
+
+.email{
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    color: var(--white-color);
+}
+}
